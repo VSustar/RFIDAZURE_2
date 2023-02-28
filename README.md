@@ -26,6 +26,6 @@
 <span align="left"><img src="https://github.com/VSustar/RFIDAZURE_2/blob/main/images4github/daterange.png" width="50%"/></span>
 
 ## Link to the RFID-ESP32 microcontroller part of the code
-See [Wiki](https://github.com/luc-github/ESP3D/wiki/Install-Instructions)
+See [Github]([https://github.com/luc-github/ESP3D/wiki/Install-Instructions](https://github.com/VSustar/RFIDAZURE_1))
 ## Link to the Vid Sustar's RFID tracker WebPage
 See [Wiki](https://github.com/luc-github/ESP3D/wiki/Install-Instructions)
