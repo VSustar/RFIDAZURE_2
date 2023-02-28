@@ -10,7 +10,6 @@
 
 
 ## Page contains: 
-<br><br>
 <span align="middle"><br> 
  * Short intro</span>  
 <span align="left"><img src="https://github.com/VSustar/RFIDAZURE_2/blob/main/images4github/Index.png" width="50%"/></span>
