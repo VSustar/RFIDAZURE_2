@@ -1,0 +1,35 @@
+{% extends 'layout.html'%}
+{% block content %}
+<div class="col-xs-10 col-sm-6 col-md-6">
+    <br><br>
+    <h1 style="font-weight: bold">Welcome to Vid Sustar's RFID tracker</h1>
+</div>
+
+    <div id="container">
+        <br><br>
+        <p> The motive for the tracker is to keep track of items tagged with RFID tags.
+            <br>
+            RFID tagged items are registered by RFID reader and ESP32 microcontroller. 
+            <br>
+            Each entry is sent to Azure cloud IoT hub by ESP32. 
+            <br>
+            IoT hub events are directed into Azure SQL database via Streaming analytics job. 
+            <br>
+            SQL database entries are queried by Python pypyodbc library. 
+            <br>
+            The data is processed and presented via Python Pandas, Plotly and Flask libraries on webpage hosted by Azure Web App.  </p>
+            <br>
+        <p>Link to project <a href="https://github.com/" target="_blank" style="font-weight: bold">code</a></p>
+        <p> <span style="font-weight: bold">Diagram</span> of the whole process: </p>
+        <img alt="RFID diagram" src="{{ url_for('static', filename='images/RFIDdiagram3.png') }}">
+    </div>
+
+        <div>
+            <p>Please check the links in the top navigation bar:</p>
+            <p>1. <span style="font-weight: bold">Overview Charts</span> offer graphical overview of RFID tracking data.</p>
+            <p>2. <span style="font-weight: bold">Table</span> shows the raw entries data as in the Azure SQL database. </p>
+            <p>3. <span style="font-weight: bold">Date Range Selector</span> modifies the date range of data presented in Overview charts and the Table. </p>
+        </div>
+
+
+{% endblock %}  

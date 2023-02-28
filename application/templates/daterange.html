@@ -1,0 +1,42 @@
+{% extends 'layout.html'%}
+{% block content %}
+
+<br>
+  <div class="col-xs-10 col-sm-6 col-md-6">
+
+    <h2>Specify the date range you are interested in</h2>
+    <br>
+    <br>
+    <div class="card card-style mb-2">
+        <div class="card-body">
+            <form action="" method="POST">
+                {{ form.csrf_token() }}
+                <fieldset class="form-group">
+                    
+                    <br>
+                    <br>
+                    <div class="form-group">
+                        <p class="lead">Enter the start date</p>
+                        {{  form.startdate() }}
+                    </div>
+                    <br>
+                    <br>
+                    <div class="form-group">
+                        <p class="lead">Enter the end date</p>
+                        {{  form.enddate() }}
+                    </div>
+                    <br>
+                    <br>
+                    <div class="form-group border-bottom pb-3">
+                        {{ form.submit(class="btn btn-outline-info",style="font-weight: bold")}}
+                    </div>
+                    <br>
+                    <br>
+                    <legend class="mb-4">The earliest date in database is: {{earliestDate}} and the latest date is: {{latestDate}}.</legend>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}  

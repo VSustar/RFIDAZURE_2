@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block content %}
+
+
+  <p>Charts are interactive: hover over charts for additional info. By bar charts use the tools in uper right corner for zooming, selection, panning, etc. </p>
+  <br> 
+<div></div>
+  <div id='totalPieChart' class='chart'”></div>
+  <p>Pie chart with total counts of entry per each RFID tagged item. </p>
+  <br>  <br>  <br>  <br>
+  <div id='dateChart' class='chart'”></div>
+  <p>Bar chart with entry counts per date for each tagged item. </p>
+  <br>  <br>  <br>  <br>
+  <div id='dateChart2' class='chart'”></div>
+  <p>Distribution chart with entry counts per hour for each tagged item. </p>
+  <br>  <br>  <br>  <br>
+  <div id='dateChart3' class='chart'”></div>
+  <p>Dotplot chart of entries hours per day of the week for each tagged item. </p>
+
+</div>
+
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script type='text/javascript'>
+  var totalPieGraph = {{totalPieGraphJSON | safe}};
+  Plotly.plot('totalPieChart',totalPieGraph,{});
+
+  var dateGraph = {{dateGraphJSON | safe}};
+  Plotly.plot('dateChart',dateGraph,{});
+
+  var dateGraph2 = {{dateGraphJSON2 | safe}};
+  Plotly.plot('dateChart2',dateGraph2,{});
+  
+  var dateGraph3 = {{dateGraphJSON3 | safe}};
+  Plotly.plot('dateChart3',dateGraph3,{});
+  
+</script>
+
+{% endblock %}
+ <!--
+</html>
+-->
