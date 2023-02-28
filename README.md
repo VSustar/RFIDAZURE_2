@@ -14,7 +14,6 @@
 <span align="middle"><br> 
  * Short intro</span>  
 <span align="left"><img src="https://github.com/VSustar/RFIDAZURE_2/blob/main/images4github/Index.png" width="50%"/></span>
-<br><br>
 <span align="middle"><br> 
  * Charts made with Python libraries Pandas, Plotly and Flask with data queried from Azure SQL database where RFID data is stored.</span>  
 <span align="left"><img src="https://github.com/VSustar/RFIDAZURE_2/blob/main/images4github/Overview.png" width="50%"/></span>
@@ -26,6 +25,6 @@
 <span align="left"><img src="https://github.com/VSustar/RFIDAZURE_2/blob/main/images4github/daterange.png" width="50%"/></span>
 
 ## Link to the RFID-ESP32 microcontroller part of the code
-See [Github](https://github.com/VSustar/RFIDAZURE_1))
+See [Github](https://github.com/VSustar/RFIDAZURE_1)
 ## Link to the Vid Sustar's RFID tracker WebPage
 See [Wiki](https://github.com/luc-github/ESP3D/wiki/Install-Instructions)
