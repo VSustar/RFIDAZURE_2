@@ -4,7 +4,7 @@
  <br> <br>
  The motive for the tracker is to keep track of items tagged with RFID tags. <br> <br>
             Project is compartmentalised into microcontroller (Esp32 in C) and cloud part (Azure IoTHub, SQL database and Python/HTML on Azure Webbapp). <br> <br>
-            In this repository is the code cloud part that consists of Python and HTML/CSS. 
+            In this repository is the cloud part of the code in Python and HTML/CSS. 
  <br> <br>
 
             The sequence of whole process is as follows:
