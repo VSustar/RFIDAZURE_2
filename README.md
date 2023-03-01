@@ -49,8 +49,8 @@ See [Github](https://github.com/VSustar/RFIDAZURE_1)
 See [Webpage](https://sustariot.azurewebsites.net/)
  
 ## Main References:
-* Flask [Princekrampah](https://github.com/Princekrampah/FlaskPlotlyProject) 
+* Flask from [Princekrampah](https://github.com/Princekrampah/FlaskPlotlyProject) 
 * Plotly [Official website](https://plotly.com/python/)  
-* Pypyodbc, connecting Python to Azure SQL database [Jie Jenn](https://www.youtube.com/watch?v=JVtGKA6OVvM)  
-* Deployment of Flask webapp to Azure Web App service [cloudquicklabs](https://www.youtube.com/watch?v=Swhq665jyZw)
+* Pypyodbc, connecting Python to Azure SQL database from [Jie Jenn](https://www.youtube.com/watch?v=JVtGKA6OVvM)  
+* Deployment of Flask webapp to Azure Web App service from [cloudquicklabs](https://www.youtube.com/watch?v=Swhq665jyZw)
 * [StackOverflow](https://stackoverflow.com/)
