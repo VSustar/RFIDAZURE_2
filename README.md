@@ -46,8 +46,9 @@
 ## Link to the RFID-ESP32 microcontroller part of the code
 See [Github](https://github.com/VSustar/RFIDAZURE_1)
 ## Link to the Vid Sustar's RFID tracker WebPage
-Webpage is currently down to preserve the costs...
-See [Webpage](https://sustariot.azurewebsites.net/)
+
+See [Webpage](https://sustariot.azurewebsites.net/) 
+(Webpage is currently down to preserve the costs... I will recreate the project with home server)
 
  
 ## Main References:
