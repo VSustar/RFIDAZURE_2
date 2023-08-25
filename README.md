@@ -48,7 +48,7 @@ See [Github](https://github.com/VSustar/RFIDAZURE_1)
 ## Link to the Vid Sustar's RFID tracker WebPage
 
 See [Webpage](https://sustariot.azurewebsites.net/) 
-(Webpage is currently down to preserve the costs... I will recreate the project with home server)
+(Webpage is currently down to preserve the costs... I will recreate the project with virtual private server)
 
  
 ## Main References:
